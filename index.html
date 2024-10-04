@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to bottom right, #283593, #3f51b5);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.7);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .brand {
+            color: #ffeb3b;
+            font-weight: bold;
+        }
+
+        main p {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #283593;
+            background: #ffeb3b;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #fdd835;
+        }
+
+        footer p {
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to <span class="brand">Our Page</span></h1>
+        </header>
+        <main>
+            <p>Your gateway to innovative technology solutions.</p>
+            <button onclick="alert('Thank you for visiting !')">Learn More</button>
+        </main>
+        <footer>
+            <p>&copy; 2024. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
